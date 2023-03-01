@@ -1,0 +1,111 @@
+
+
+.top_header{
+    background-color: black;
+    height: 50px;
+    display: flex;
+}
+
+.icon{
+    color:lightgrey;
+
+}
+
+.company_name{
+    font-size: small;
+    color: white;
+   margin-left: 10px;
+}
+
+.tag{
+    font-size: smaller;
+    color:grey;
+   
+}
+
+.left_div{
+width: 20%;
+display:flex;
+align-items: center;
+
+}
+
+.right_div{
+    padding: 4px;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.btn_editor{
+    height: 30px;
+    padding: 4px;
+    margin-right: 6px;
+    border-radius: 2px;
+    color: lightgray;
+    font-size: small;
+    background-color: grey;
+    
+}
+
+nav{
+    height: 40px;
+
+}
+
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    color: white;
+    background-color: rgb(48, 47, 47);
+}
+
+.cover_text{
+ font-size: xx-large;
+ color:lightgrey;
+}
+.page_text{
+font-size:small;
+color: grey;
+}
+
+.card-body{
+
+   text-align: center; 
+}
+
+.stars{
+    color: goldenrod;
+}
+ .btn-card{
+    background-color: white;
+    color: aqua;
+    border: solid 1px gray;
+}
+
+.container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.body{
+    margin:0px;
+}
+
+.footer{
+    height: 45px;
+    background-color: rgb(48, 47, 47);
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
