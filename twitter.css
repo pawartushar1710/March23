@@ -1,0 +1,133 @@
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.row{
+    background-color: black;
+    height: 100%;
+}
+
+
+.mid{
+
+    border: 0.5px solid white;
+    display: flex;
+    flex-direction: column;
+   padding: 0;
+}
+
+.left-container{
+    display: flex;
+    
+  flex-direction: column;
+  padding-left: 40px;
+   
+
+}
+
+.twitter-img{
+    height: 45px;
+    width: 40px;
+    border-radius: 2px;
+    margin: 18px 0;
+}
+.left-menu{
+    color: gainsboro;
+    font-size: larger;
+    margin: 18px 0;
+
+}
+
+.searchwrapper{
+    display: flex;
+    background-color: rgb(77, 76, 76);
+    margin-top: 6px;
+    border-radius: 30px;
+    width: 92%;
+    height: fit-content;
+
+}
+
+.search-icon{
+    color: white;
+    margin: 12px 0 0 16px;
+
+}
+
+    .search-bar{
+    padding: 6px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: inherit;
+    background-color: inherit;
+    padding: 6px;
+    outline: none;
+}
+
+.settings{
+    color: white;
+    margin: 20px 0 0 20px;
+}
+
+a{
+    color: grey !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: inherit;
+    color: grey !important;
+    border: none;
+}
+.nav-tabs{
+    border: none !important;
+}
+
+.banner-img{
+   
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFbjzmxTQINbl7x5qUUqQ6RaPZYaj2SyH5cg&usqp=CAU);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: rgb(43, 42, 42);
+   padding: 1px;
+    height: 300px;
+
+}
+
+.top-news{
+    display: flex;
+    height: 100px;
+    padding: 28px;
+    margin-bottom: 40px;
+    color: rgb(214, 247, 236);
+    font-size: smaller;
+}
+.what-to-follow{
+    display: flex;
+    height: 150px;
+    color: grey;
+    
+    padding: 28px;
+}
+.tweet{
+    height: 150px;
+
+ flex-direction: column;
+ padding: 28px;
+
+}
+.tweet p{
+    color: gray;
+}
+
+.tweet-img-banner{
+
+    height: 100px;
+    padding: 28px; 
+  height: 50px;
+  width: 50px;
+
+}
