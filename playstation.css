@@ -1,0 +1,202 @@
+
+body{
+    height: 100%;
+}
+
+
+.top-header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    font-size: x-large;
+   
+}
+
+
+
+.logo{
+    height: 60px;
+    width: 90px;
+    background-color: lightskyblue;
+}
+.nav-link {
+    font-size: large;
+    color: black;
+}
+
+.btn {
+    background-color: lightskyblue;
+    border-radius: 25px;
+    padding: 8px;
+    margin-right: 30px;
+    height: 40px;
+    
+}
+
+.search-icon{
+    margin-right: 24px;
+
+}
+.banner-img{
+    height: 1000px;
+    background-color: lightslategray;
+    background-image: url(https://wallpaperaccess.com/full/910880.jpg);
+}
+
+.playstation-console{
+   
+   height: 700px;
+}
+
+.console-top{
+    display: flex;
+}
+
+.console-top{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.console-img{
+    width: 200px;
+    height: 120px;
+    border: 2px solid lightslategrey ;
+    border-radius: 10px;
+    padding: 4px;
+    margin: 50px 0 0 12px;
+  
+}
+
+.playstation-txt{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 150px;
+    margin-top: 100px;
+    margin-right: 50px;
+    font-size: xx-large;
+    color: black;
+}
+.para{
+    font-size: smaller;
+    color: grey;
+}
+
+.learn-more {
+    width: 35%;
+    height: 35px;
+    font-size: large;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(101, 101, 238);
+    margin-top: 25px;
+}
+
+
+.playstation-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body-outer{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 18px;
+}
+
+.card{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border: none;
+
+}
+.card-img{
+    width: 90px;
+    height: 130px;
+}
+.card-body{
+    font-size: medium;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.playstation-plus{
+    background: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-left: 200px;
+    
+   
+}
+
+.left-plus{
+    align-items: center;
+    justify-content: end;
+}
+
+.para-g{
+    margin: 0;
+}
+
+.playstation-img{
+    width: 50% !important;
+    height: 50px !important;
+   margin-bottom: 20px;
+   
+}
+
+.Explore-ps{
+    width: 45%;
+    height: 35px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(101, 101, 238);
+    margin-top: 25px;
+}
+
+.rightplusfirst-img{
+    width: 250px;
+    height: 350px;
+}
+
+.rightplussec-img{
+    margin-left: 4px;
+    margin-bottom: 4px;
+    width: 250px;
+    height: 173px;
+}
+
+.this-month {
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background: url(https://img.freepik.com/premium-photo/dark-street-background-reflection-blue-red-neon-asphalt_129911-32.jpg);
+    
+   
+}
+
+.top-month{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    color:white;
+   
+}

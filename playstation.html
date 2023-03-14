@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Station</title>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+</script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="playstation.css">
+
+</head>
+<body>
+    <div>
+    <div class="top-header"> <b>SONY</b></div>
+
+    <div >
+  
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+             <img class="logo" src="data:image/png;base64,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"
+        alt="...">
+            <div class="container-fluid">
+             
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Games
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Hardeware
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      News
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Support
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"></a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-success">Sign In</button>
+              <svg class="search-icon"  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </div>
+          </nav>
+
+         
+    </div>
+
+<!-- banner -->
+
+<div class="banner-img">
+
+</div>
+<div class="playstation-console ">
+    <div class="console-top">
+         <img class="console-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIGWgjhKSYj7RkqZfR8AOb65jSDQ1b-go50A&usqp=CAU" alt="...">
+         <img class="console-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR07-1AeeqSse05YdzXTmJu0DOxTzozuyIY6Q&usqp=CAU" alt="...">
+         <img class="console-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg1scpQbpWaJLIYrvq0J3EdCJxaCdNzvIjBQ&usqp=CAU" alt="...">
+         <img class="console-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIGWgjhKSYj7RkqZfR8AOb65jSDQ1b-go50A&usqp=CAU" alt="...">
+         <img class="console-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4NQ9topGRbP-P6htvUfkw_YKFzljpi7ikBA&usqp=CAU" alt="...">
+    </div>
+
+    <div class="playstation-txt">
+        <div>
+        <p>DualSense Edge™ </p>
+        <p> Wireless Controller</p>
+        <p class="para">Get an edge in gameplay with remappable buttons, tuneable triggers and sticks, changeable stick caps, back buttons, and more.</p>
+    
+        <button type="button" class="learn-more">Learn More</button>
+    </div>
+    <div>
+        <img style="width: 600px; height: 400px; margin-left: 50px;background-color: lightgray;" src="https://gmedia.playstation.com/is/image/SIEPDC/DualSense-Edge-image-block-01-en-24aug22?$1600px$"
+         alt="...">
+    </div>
+
+    </div>
+ 
+<div class="playstation-bottom">
+    <div class="card-body-outer" style="width:200px; height: 220px;">
+        <div class="card" >
+            <img class="card-img" src="https://gmedia.playstation.com/is/image/SIEPDC/playstation-5-horizontal-product-shot-01-ps5-en-23nov20?$1200px--t$" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PS5 Console</h5>
+              
+            </div>
+         </div>
+         
+</div>
+<div class="card-body-outer" style="width:200px; height: 220px;">
+    <div class="card" >
+        <img class="card-img" src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-collection-image-block-01-en-01sep22?$1200px$" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">DualSense™ Wireless Controller</h5>
+          
+        </div>
+     </div>
+     
+</div>
+<div class="card-body-outer" style="width:200px; height: 220px;">
+    <div class="card" >
+        <img class="card-img" src="https://gmedia.playstation.com/is/image/SIEPDC/3d-pulse-headset-range-image-block-03-en-13sep22?$1200px$" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PULSE 3D™ Wireless Headsey</h5>
+          
+        </div>
+     </div>
+     
+</div>
+
+<div class="card-body-outer" style="width:200px; height: 220px;">
+    <div class="card" >
+        <img class="card-img" src="https://gmedia.playstation.com/is/image/SIEPDC/playstation-5-horizontal-product-shot-01-ps5-en-23nov20?$1200px--t$" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">DualSense Edge</h5>
+          
+        </div>
+     </div>
+     
+</div>
+
+<div class="card-body-outer" style="width:200px; height: 220px;">
+    <div class="card" >
+        <img class="card-img" src="https://gmedia.playstation.com/is/image/SIEPDC/DualSense-Edge-image-block-01-en-24aug22?$1200px$" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">HD Camera</h5>
+          
+        </div>
+     </div>
+     
+</div>
+
+</div>
+
+        <div class="playstation-plus">
+
+            <div class="left-plus" style="width: 40%;">
+                <img class="playstation-img" src="https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-black-badge@2x?$1600px--t$" alt="...">
+            
+          
+                 <p class="para-g"> Enhance your PlayStation experience with </p> 
+                 <p class="para-g">access to online multiplayer, monthly games, </p>
+                 <p class="para-g">exclusive discounts and more.</p> 
+                
+                 <div>
+                    <button type="button" class="Explore-ps">Explore PlayStation More</button>
+                 </div>
+             
+            </div> 
+
+            <div  class="rightplus"  style="width: 60%; display: flex; padding-left: 0;">
+                <img class="rightplusfirst-img" src="https://images2.alphacoders.com/597/thumbbig-597965.webp" alt="..">
+                <div > 
+                <img class="rightplussec-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRET9YGHCe_hHhZRIVOwooVfJn1jMeAXWSQrQ&usqp=CAU" alt=",.,">
+                <img class="rightplussec-img" src="https://images.hdqwalls.com/wallpapers/thumb/assassins-creed-valhalla-game-monochrome-yp.jpg" alt=",.,">
+                </div>
+                
+            </div>
+         </div>
+
+
+         <div class="this-month">
+            <div class="top-month">
+                <h2>THIS MONTH</h2>
+                <h2><b>ON PLAYSTATION</b></h2>
+                <p>Check out this month's biggest releases along with dedicated features, guides and more.
+            </div>
+           
+         </div>
+       
+ 
+</div>
+</div>
+</body>
+</html>
+
